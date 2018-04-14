@@ -1,0 +1,42 @@
+@model MvcVehiculos.Models.vehiculo
+
+@{
+    ViewData["Title"] = "Eliminar";
+}
+
+<h3>¿Está seguro de querer eliminar este veh&iacute;culo?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.vehiculofechainc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.vehiculofechainc)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.vehiculoplaca)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.vehiculoplaca)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.vehiculomarca)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.vehiculomarca)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.vehiculonropuertas)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.vehiculonropuertas)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Eliminar" class="btn btn-default" /> |
+        <a asp-action="Index">Volver a la Lista</a>
+    </form>
+</div>

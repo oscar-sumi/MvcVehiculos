@@ -1,0 +1,24 @@
+C:\MvcVehiculos\bin\Debug\netcoreapp2.0\app.db
+C:\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.deps.json
+C:\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.runtimeconfig.json
+C:\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.runtimeconfig.dev.json
+C:\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.dll
+C:\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.pdb
+C:\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.csproj.CoreCompileInputs.cache
+C:\MvcVehiculos\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.AssemblyInfoInputs.cache
+C:\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.AssemblyInfo.cs
+C:\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.dll
+C:\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.pdb
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\bin\Debug\netcoreapp2.0\app.db
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.deps.json
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.runtimeconfig.json
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.runtimeconfig.dev.json
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.dll
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\bin\Debug\netcoreapp2.0\MvcVehiculos.pdb
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.csproj.CoreCompileInputs.cache
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.AssemblyInfoInputs.cache
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.AssemblyInfo.cs
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.dll
+C:\Users\sumi.oscar\Documents\Sistemas\ASP.NET Core MVC\Vehiculos\04 Estable Con Autenticación\MvcVehiculos\obj\Debug\netcoreapp2.0\MvcVehiculos.pdb

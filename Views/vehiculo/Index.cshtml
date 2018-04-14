@@ -1,0 +1,59 @@
+@model IEnumerable<MvcVehiculos.Models.vehiculo>
+
+@{
+    ViewData["Title"] = "Vehículos";
+}
+
+<h3>Veh&iacute;culos</h3>
+<div style="height:12px;"></div>
+<p class="text-left">
+    <a asp-action="Create" title="Adicionar Vehículo" rel="tooltipLef"><span class="fa fa-plus"></span> Adicionar Veh&iacute;culo</a>
+</p>
+<table class="table table-striped table-bordered table-hover table-heading no-border-bottom">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.vehiculofechainc)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.vehiculoplaca)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.vehiculomarca)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.vehiculonropuertas)
+                </th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.vehiculofechainc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vehiculoplaca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vehiculomarca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vehiculonropuertas)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class = "glyphicon glyphicon-pencil" title = "Modificar" rel = "tooltipTop"> </a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class = "glyphicon glyphicon-eye-open" title = "Ver" rel = "tooltipTop"> </a>
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.Id" class = "glyphicon glyphicon-trash" title = "Eliminar" rel = "tooltipTop"> </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+@model MvcVehiculos.Models.vehiculo
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<div>
+    <h3>Detalles</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.vehiculofechainc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.vehiculofechainc)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.vehiculoplaca)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.vehiculoplaca)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.vehiculomarca)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.vehiculomarca)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.vehiculonropuertas)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.vehiculonropuertas)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Modificar</a> |
+    <a asp-action="Index">Volver a la Lista</a>
+</div>
